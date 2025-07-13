@@ -1,0 +1,13 @@
+├── .github/            # GitHub Actions workflows
+├── config/            # Configuration files
+├── data/              # Data storage
+├── docs/              # Documentation
+├── models/            # Trained models and experiments
+├── notebooks/         # Jupyter notebooks for exploration
+├── src/               # Source code
+├── tests/             # Test suites
+├── Dockerfile         # Container configuration
+├── Makefile           # Development commands
+├── pyproject.toml     # Project metadata
+├── requirements.txt   # Python dependencies
+└── README.md          # This file
