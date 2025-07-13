@@ -48,4 +48,5 @@ A production-grade machine learning system for predicting loan eligibility with 
 
 ### Usage
 1. Training the Model:
-2. Running the API
+   ```bash python -m src.models.train_model
+2. Running the API:
