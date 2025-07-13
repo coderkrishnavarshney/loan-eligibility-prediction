@@ -82,4 +82,3 @@ curl -X 'POST' \
   "Credit_History": 1.0,
   "Property_Area": "Urban"
 }'
-    
