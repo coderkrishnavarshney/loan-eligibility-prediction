@@ -51,3 +51,7 @@ A production-grade machine learning system for predicting loan eligibility with 
 1. Training the Model:
 ```bash
 python -m src.models.train_model
+
+2. 2. Running the API:
+```bash
+uvicorn src.api.app:app --reload
