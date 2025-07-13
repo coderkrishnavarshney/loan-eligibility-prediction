@@ -40,7 +40,8 @@ A production-grade machine learning system for predicting loan eligibility with 
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   
 4. Set up pre-commit hooks:
    ```bash
-pre-commit install
+   pre-commit install
 
