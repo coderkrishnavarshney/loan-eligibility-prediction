@@ -64,8 +64,9 @@ A production-grade machine learning system for predicting loan eligibility with 
    docker run -p 8000:8000 loan-prediction-api
 
 ### Making Predictions
-```bash
-curl -X 'POST' \
+1. Making Predictions:
+   ```bash
+   curl -X 'POST' \
   'http://localhost:8000/api/v1/predict' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
@@ -82,3 +83,24 @@ curl -X 'POST' \
   "Credit_History": 1.0,
   "Property_Area": "Urban"
 }'
+### Project Structure
+1. ```text
+   ├── .github/            # GitHub Actions workflows
+├── config/            # Configuration files
+├── data/              # Data storage
+├── docs/              # Documentation
+├── models/            # Trained models and experiments
+├── notebooks/         # Jupyter notebooks for exploration
+├── src/               # Source code
+├── tests/             # Test suites
+├── Dockerfile         # Container configuration
+├── Makefile           # Development commands
+├── pyproject.toml     # Project metadata
+├── requirements.txt   # Python dependencies
+└── README.md          # This file
+
+### Testing
+### Contributing
+### License
+### Contact
+### Key Features of This Documentation
