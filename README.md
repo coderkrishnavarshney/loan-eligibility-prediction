@@ -52,4 +52,15 @@ A production-grade machine learning system for predicting loan eligibility with 
    python -m src.models.train_model
 2. Running the API:
    ```bash
-   uvicorn src.api.app:app --reload 
+   uvicorn src.api.app:app --reload
+
+   
+### Docker Deployment
+1. Build the image:
+   ```bash
+   docker build -t loan-prediction-api .
+3. Run the container:
+   ```bash
+   docker run -p 8000:8000 loan-prediction-api
+
+    
