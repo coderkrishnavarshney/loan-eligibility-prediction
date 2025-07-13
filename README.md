@@ -63,23 +63,6 @@ A production-grade machine learning system for predicting loan eligibility with 
    ```bash
    docker run -p 8000:8000 loan-prediction-api
  ### Testing
-1. Run the test suite:
-  ```bash
-  pytest --cov=./ --cov-report=html
-2. curl -X 'POST' \
-  'http://localhost:8000/api/v1/predict' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "Gender": "Male",
-  "Married": "Yes",
-  "Dependents": "0",
-  "Education": "Graduate",
-  "Self_Employed": "No",
-  "ApplicantIncome": 5000,
-  "CoapplicantIncome": 2000,
-  "LoanAmount": 150,
-  "Loan_Amount_Term": 360,
-  "Credit_History": 1.0,
-  "Property_Area": "Urban"
-}'
+ 1. Run the test suite:
+```bash
+pytest --cov=./ --cov-report=html
