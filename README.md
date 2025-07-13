@@ -66,7 +66,6 @@ A production-grade machine learning system for predicting loan eligibility with 
 ### Making Predictions
 1. Making Predictions:
    ```bash
-   
    curl -X 'POST' \
   'http://localhost:8000/api/v1/predict' \
   -H 'accept: application/json' \
