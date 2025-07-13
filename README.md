@@ -35,7 +35,7 @@ A production-grade machine learning system for predicting loan eligibility with 
 2. Create and activate virtual environment:
    ```bash
    python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
 3. Install dependencies:
    ```bash
 pip install -r requirements.txt
@@ -43,5 +43,3 @@ pip install -r requirements.txt
    ```bash
 pre-commit install
 
-
-### Usage
