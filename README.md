@@ -6,7 +6,7 @@
 [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-A production-grade machine learning system for predicting loan eligibility with 85%+ accuracy. Designed to meet FAANG engineering standards.
+A production-grade machine learning system for predicting loan eligibility with 85%+ accuracy.
 
 ## Features
 
